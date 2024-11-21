@@ -1,0 +1,1 @@
+printf("%lld ", max[i]);

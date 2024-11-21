@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "random": "c",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp",
+        "stdio.h": "c"
+    },
+    "cSpell.words": [
+        "aloifolia",
+        "Bambusajacobsii",
+        "chinensis",
+        "Dimocarpuslongan",
+        "europea",
+        "fibo",
+        "Gendarusavulgaris",
+        "kolom",
+        "Lichichinensis",
+        "Olea",
+        "Oleaeuropea",
+        "Phycalisperuviana",
+        "Sasafortunei",
+        "selisih",
+        "Smallanthus",
+        "Smallanthussonchifolius",
+        "Yuccaaloifolia",
+        "Zebrina",
+        "Zebrinapendula"
+    ]
+}

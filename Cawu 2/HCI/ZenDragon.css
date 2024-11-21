@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vp;
+}
+
+:root{
+    --primary: #D9D9D9;
+}
+
+.navbar{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar .nav-icon{
+    height: 3.5rem;
+}
+
+.navbar .nav-link a{
+    align-items: center;
+    position: relative;
+    font-size: 30;
+    color: #5b5b5b;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navbar .nav-link a::after{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navbar .nav-link a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navbar .nav-profile{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-profile img{
+    height: 3rem;
+    margin: 0 0.5rem;
+}
+
+.navbar .nav-profile .nav-profile-icon {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    height: px;
+}
+
+.logo{
+    width: 15%;
+    user-select: none;
+}
+
+.navigation a{
+    align-items: center;
+    position: relative;
+    font-size: 30;
+    color: #5b5b5b;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.Homeicon {
+    width: 5%;
+    justify-items: center;
+}
+
+.background {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .regis {
+    top: 50px;
+    width: 40%;
+    padding: 40px;
+}
+
+.regis h2{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    font-family: "Irish Grover", system-ui;
+}
+
+.input-box {
+    font-family: "Irish Grover", system-ui;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: black;
+    line-height: 57px;
+
+}
+
+.radio {
+    width: 100px;
+    height: 10px;
+    -webkit-transform: scale(1.2);
+    margin-left: 20%;
+
+}
+
+.regis {
+    margin-top: 50px;
+    position: absolute;
+    z-index: 3;
+    width: 40%;
+    height: auto;
+    padding: 5px 5px;
+    background-color: rgba(255, 255, 255, 0.413);
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.box {
+    display: flex;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+}
