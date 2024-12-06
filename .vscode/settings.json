@@ -32,6 +32,8 @@
         "kivy",
         "kondisi",
         "lademy",
+        "lbfgs",
+        "liblinear",
         "maka",
         "matplotlib",
         "MAXN",
